@@ -82,6 +82,7 @@ app.get('/SolarSystem/meteoroids', (req, res) => {
     res.render('solar/meteoroids')
 })
 
+//constellation
 app.get('/Constellation', (req, res) => {
     res.render('constellation')
 })
@@ -125,6 +126,14 @@ app.get('/constellation/taurus-details', (req, res) => {
 })
 app.get('/constellation/virgo-details', (req, res) => {
     res.render('constellation/virgo-details')
+})
+
+//photos
+app.get('/photos', (req, res) => {
+    res.render('photos')
+})
+app.get('/videos', (req, res) => {
+    res.render('videos')
 })
 
 app.listen(port, () => {
