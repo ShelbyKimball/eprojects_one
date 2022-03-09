@@ -58,7 +58,7 @@ a {
 .grid__column-2_10 {
     padding-left: 8px;
     padding-right: 8px;
-    width: 20%;
+    width: 33.33%;
 }
 
 .grid__column-3_10 {
@@ -753,3 +753,25 @@ th {
 .pagination-item__icon {
 
 }
+
+/*constellation*/
+ .cons_headline{
+     text-align: center;
+     font-weight: 700;
+ }
+ .cons_content{
+     text-align: justify;
+ }
+ .cons_content p{
+     font-size: 18px;
+ }
+ .cons_content img,figcaption{
+     display: block;
+     margin: 0 auto;
+     text-align: center;
+ }
+
+ .conste-item__img{
+     border-radius: 7px;
+     overflow: hidden;
+ }

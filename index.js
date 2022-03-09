@@ -81,8 +81,50 @@ app.get('/SolarSystem/comets', (req, res) => {
 app.get('/SolarSystem/meteoroids', (req, res) => {
     res.render('solar/meteoroids')
 })
+
 app.get('/Constellation', (req, res) => {
     res.render('constellation')
+})
+app.get('/constellation2', (req, res) => {
+    res.render('constellation2')
+})
+app.get('/constellation/aquarius-details', (req, res) => {
+    res.render('constellation/aquarius-details')
+})
+app.get('/constellation/aries-details', (req, res) => {
+    res.render('constellation/aries-details')
+})
+
+
+app.get('/constellation/cancer-details', (req, res) => {
+    res.render('constellation/cancer-details')
+})
+app.get('/constellation/capricon-details', (req, res) => {
+    res.render('constellation/capricon-details')
+})
+app.get('/constellation/gemini-details', (req, res) => {
+    res.render('constellation/gemini-details')
+})
+app.get('/constellation/leo-details', (req, res) => {
+    res.render('constellation/leo-details')
+})
+app.get('/constellation/libra-details', (req, res) => {
+    res.render('constellation/libra-details')
+})
+app.get('/constellation/pisces-details', (req, res) => {
+    res.render('constellation/pisces-details')
+})
+app.get('/constellation/sagittarius-details', (req, res) => {
+    res.render('constellation/sagittarius-details')
+})
+app.get('/constellation/scopio-details', (req, res) => {
+    res.render('constellation/scopio-details')
+})
+app.get('/constellation/taurus-details', (req, res) => {
+    res.render('constellation/taurus-details')
+})
+app.get('/constellation/virgo-details', (req, res) => {
+    res.render('constellation/virgo-details')
 })
 
 app.listen(port, () => {
