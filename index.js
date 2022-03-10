@@ -136,6 +136,20 @@ app.get('/videos', (req, res) => {
     res.render('videos')
 })
 
+//location
+app.get('/location', (req, res) => {
+    res.render('location')
+})
+app.get('/location/location1', (req, res) => {
+    res.render('location/location1')
+})
+app.get('/location/location2', (req, res) => {
+    res.render('location/location2')
+})
+app.get('/location/location3', (req, res) => {
+    res.render('location/location3')
+})
+
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
 })

@@ -775,3 +775,28 @@ th {
      border-radius: 7px;
      overflow: hidden;
  }
+ /*photos*/
+.photos_caption{
+    margin: 0 auto;
+}
+ /*location*/
+.location_item {
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 100%;
+    min-width: 189px;
+}
+.location_item img{
+    object-fit: cover;
+}
+.location_span{
+    position: relative;
+}
+.location_map{
+    position: absolute;
+    right: 0;
+}
+.location_text{
+    text-align: justify;
+    font-size: 18px;
+}
